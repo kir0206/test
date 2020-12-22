@@ -4,7 +4,7 @@ main() {
    float x,y;
    char sign='+';
    while (sign != '0') {
-      printf("Знак: ");
+      printf("Sign: ");
       scanf("%c%*c", &sign);
       if (sign == '0') { break; }
       if (sign == '+' || sign == '-' 
@@ -25,9 +25,9 @@ main() {
                break;
             case '/':
                if (y != 0) printf("%.2f\n", x/y);
-               else printf("Деление на ноль!\n");
+               else printf("Wrong\n");
          }
       }
-      else printf("Неверно указан знак операции\n");
+      else printf("Wrong sign\n");
    }
 }
