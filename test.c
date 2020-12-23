@@ -1,34 +1,28 @@
 #include <stdio.h>
 #include <assert.h>
 
-int Sum(float a, float b){
+void Sum(float a, float b){
    float y;
    y=a+b;
-   return (y);
+  printf("%f\n", y);
 }
-int inc(float a, float b){
+void inc(float a, float b){
    float y;
-   y=a-b;
-   return (y);
+   y=a-b;   
+  printf("%f\n", y);
 }
-int dec(float a, float b){
-   float y;
-   y=a/b;
-   return (y);
-}
-
-int umn(float a, float b){
+void umn(float a, float b){
    float y;
    y=a*b;
-   return (y);
+  printf("%f\n", y);
 }
-int del(float a, float b){
+void del(float a, float b){
    float y;
    y=a/b;
-   return (y);
+  printf("%f\n", y);
 }
 
-main() {
+int main() {
    float x,y,z;
    char sign;
    while (sign != '0') {
@@ -45,21 +39,17 @@ main() {
          scanf("%f%*c", &y);
          switch (sign) {
             case '+':
-               z=Sum(x,y);
-               printf("%.2f\n", &z);
+               Sum(x,y);
                break;
             case '-':
-               z=inc(x,y);
-               printf("%.2f\n", &z);
+               inc(x,y);
                break;
             case '*':
-               z=umn(x,y);
-               printf("%.2f\n", &z);
+               umn(x,y);
                break;
             case '/':
                if (y != 0)
-                {z=del(x,y); 
-                printf("%.2f\n", &z);
+                {del(x,y);
                 }
 
                else printf("Wrong\n");
