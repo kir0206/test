@@ -1,0 +1,56 @@
+language: c      # на практике разницы между специфичным для C++ окружением
+                    # и, скажем, python -- никакой. Но пусть будет cpp.
+
+os:
+    # будем прогонять CI и на Linux, и на Mac OS X...
+    - windows
+
+compiler:
+    # ... и с помощью GCC, и Clang
+    - gcc
+
+env:
+    # список переменных окружения, влияющих на матрицу сборки:
+    - TARGET_CPU=amd64 BUILD_CONFIGURATION=Debug
+    - TARGET_CPU=amd64 BUILD_CONFIGURATION=Release
+    - TARGET_CPU=x86 BUILD_CONFIGURATION=Debug
+    - TARGET_CPU=x86 BUILD_CONFIGURATION=Release
+
+matrix:
+    exclude:
+        # вручную исключим ненужные элементы из матрицы сборки:
+        - os:       osx
+          compiler: gcc
+
+        - os:  osx
+          env: TARGET_CPU=x86 BUILD_CONFIGURATION=Debug
+
+        - os:  osx
+          env: TARGET_CPU=x86 BUILD_CONFIGURATION=Release
+
+
+script:
+    # скрипт сборки и тестирования проекта:
+    - mkdir build
+    - cd build
+    - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
+    - cmake --build .
+    - ctest --output-on-failure
+if ("${TARGET_CPU}" STREQUAL "amd64")
+    set (CMAKE_SIZEOF_VOID_P 8)
+
+    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB64_PATHS TRUE)
+    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB32_PATHS FALSE)
+elseif ("${TARGET_CPU}" STREQUAL "x86")
+    set (CMAKE_SIZEOF_VOID_P 4)
+
+    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB64_PATHS FALSE)
+    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB32_PATHS TRUE)
+
+    if (GCC)
+        set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32")
+        set (CMAKE_C_FLAGS   "${CMAKE_C_FLAGS} -m32")
+    endif ()
+else ()
+    message (FATAL_ERROR "Unsupported CPU: ${TARGET_CPU}")
+endif ()
