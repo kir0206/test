@@ -1,4 +1,4 @@
-language: c      # на практике разницы между специфичным для C++ окружением
+language: c       # на практике разницы между специфичным для C++ окружением
                     # и, скажем, python -- никакой. Но пусть будет cpp.
 
 os:
@@ -8,6 +8,7 @@ os:
 compiler:
     # ... и с помощью GCC, и Clang
     - gcc
+    - clang
 
 env:
     # список переменных окружения, влияющих на матрицу сборки:
@@ -28,6 +29,9 @@ matrix:
         - os:  osx
           env: TARGET_CPU=x86 BUILD_CONFIGURATION=Release
 
+install:
+    # скрипт настройки среды и установки зависимостей:
+    - source ci/travis/install-$TRAVIS_OS_NAME.sh
 
 script:
     # скрипт сборки и тестирования проекта:
@@ -36,21 +40,16 @@ script:
     - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
     - cmake --build .
     - ctest --output-on-failure
-if ("${TARGET_CPU}" STREQUAL "amd64")
-    set (CMAKE_SIZEOF_VOID_P 8)
 
-    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB64_PATHS TRUE)
-    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB32_PATHS FALSE)
-elseif ("${TARGET_CPU}" STREQUAL "x86")
-    set (CMAKE_SIZEOF_VOID_P 4)
+deploy:
+    # выкладываем tagged-коммиты на GitHub Releases:
+    provider:     releases
+    file:         <package-file>
+    skip_cleanup: true
+    overwrite:    true
 
-    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB64_PATHS FALSE)
-    set_property (GLOBAL PROPERTY FIND_LIBRARY_USE_LIB32_PATHS TRUE)
+    api_key:
+        secure:   <encrypted-github-token>
 
-    if (GCC)
-        set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32")
-        set (CMAKE_C_FLAGS   "${CMAKE_C_FLAGS} -m32")
-    endif ()
-else ()
-    message (FATAL_ERROR "Unsupported CPU: ${TARGET_CPU}")
-endif ()
+    on:
+        tags:     true
