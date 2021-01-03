@@ -5,6 +5,10 @@ os:
     # будем прогонять CI и на Linux, и на Mac OS X...
     - windows
 
+arch:
+  - amd64
+  - arm64
+
 compiler:
     # ... и с помощью GCC, и Clang
     - gcc
@@ -22,12 +26,6 @@ matrix:
         # вручную исключим ненужные элементы из матрицы сборки:
         - os:       windows
           compiler: clang
-
-        - os:  windows
-          env: TARGET_CPU=x86 BUILD_CONFIGURATION=Debug
-
-        - os:  windows
-          env: TARGET_CPU=x86 BUILD_CONFIGURATION=Release
 
 install:
     
