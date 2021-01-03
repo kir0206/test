@@ -174,32 +174,32 @@ Multi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi.dir\build.make CMakeFiles/Multi.dir/build
 .PHONY : Multi/fast
 
-Multi.obj: Multi.c.obj
+src/Multi.obj: src/Multi.c.obj
 
-.PHONY : Multi.obj
+.PHONY : src/Multi.obj
 
 # target to build an object file
-Multi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi.dir\build.make CMakeFiles/Multi.dir/Multi.c.obj
-.PHONY : Multi.c.obj
+src/Multi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi.dir\build.make CMakeFiles/Multi.dir/src/Multi.c.obj
+.PHONY : src/Multi.c.obj
 
-Multi.i: Multi.c.i
+src/Multi.i: src/Multi.c.i
 
-.PHONY : Multi.i
+.PHONY : src/Multi.i
 
 # target to preprocess a source file
-Multi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi.dir\build.make CMakeFiles/Multi.dir/Multi.c.i
-.PHONY : Multi.c.i
+src/Multi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi.dir\build.make CMakeFiles/Multi.dir/src/Multi.c.i
+.PHONY : src/Multi.c.i
 
-Multi.s: Multi.c.s
+src/Multi.s: src/Multi.c.s
 
-.PHONY : Multi.s
+.PHONY : src/Multi.s
 
 # target to generate assembly for a file
-Multi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi.dir\build.make CMakeFiles/Multi.dir/Multi.c.s
-.PHONY : Multi.c.s
+src/Multi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi.dir\build.make CMakeFiles/Multi.dir/src/Multi.c.s
+.PHONY : src/Multi.c.s
 
 # Help Target
 help:
@@ -213,9 +213,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... Multi
-	@echo ... Multi.obj
-	@echo ... Multi.i
-	@echo ... Multi.s
+	@echo ... src/Multi.obj
+	@echo ... src/Multi.i
+	@echo ... src/Multi.s
 .PHONY : help
 
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/rep/test/Multi.c
+C:/rep/test/src/Multi.c
 stdio.h
 -
 stdlib.h

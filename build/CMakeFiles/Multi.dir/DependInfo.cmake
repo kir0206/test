@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/rep/test/Multi.c" "C:/rep/test/build/CMakeFiles/Multi.dir/Multi.c.obj"
+  "C:/rep/test/src/Multi.c" "C:/rep/test/build/CMakeFiles/Multi.dir/src/Multi.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
