@@ -75,27 +75,27 @@ include CMakeFiles/Multi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Multi.dir/flags.make
 
-CMakeFiles/Multi.dir/src/Multi.c.obj: CMakeFiles/Multi.dir/flags.make
-CMakeFiles/Multi.dir/src/Multi.c.obj: ../src/Multi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\rep\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Multi.dir/src/Multi.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Multi.dir\src\Multi.c.obj -c C:\rep\test\src\Multi.c
+CMakeFiles/Multi.dir/Multi.c.obj: CMakeFiles/Multi.dir/flags.make
+CMakeFiles/Multi.dir/Multi.c.obj: ../Multi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\rep\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Multi.dir/Multi.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Multi.dir\Multi.c.obj -c C:\rep\test\Multi.c
 
-CMakeFiles/Multi.dir/src/Multi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Multi.dir/src/Multi.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\rep\test\src\Multi.c > CMakeFiles\Multi.dir\src\Multi.c.i
+CMakeFiles/Multi.dir/Multi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Multi.dir/Multi.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\rep\test\Multi.c > CMakeFiles\Multi.dir\Multi.c.i
 
-CMakeFiles/Multi.dir/src/Multi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Multi.dir/src/Multi.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\rep\test\src\Multi.c -o CMakeFiles\Multi.dir\src\Multi.c.s
+CMakeFiles/Multi.dir/Multi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Multi.dir/Multi.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\rep\test\Multi.c -o CMakeFiles\Multi.dir\Multi.c.s
 
 # Object files for target Multi
 Multi_OBJECTS = \
-"CMakeFiles/Multi.dir/src/Multi.c.obj"
+"CMakeFiles/Multi.dir/Multi.c.obj"
 
 # External object files for target Multi
 Multi_EXTERNAL_OBJECTS =
 
-Multi.exe: CMakeFiles/Multi.dir/src/Multi.c.obj
+Multi.exe: CMakeFiles/Multi.dir/Multi.c.obj
 Multi.exe: CMakeFiles/Multi.dir/build.make
 Multi.exe: CMakeFiles/Multi.dir/linklibs.rsp
 Multi.exe: CMakeFiles/Multi.dir/objects1.rsp

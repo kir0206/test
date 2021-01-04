@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(MyProgram)
-add_executable(Multi src/Multi.c)
+add_executable(Multi Multi.c)
 
 set(MULTI_TIMEOUT 1)
 
