@@ -5,15 +5,13 @@ os:
     # будем прогонять CI и на Linux, и на Mac OS X...
     - windows
 
-arch:
-  - amd64
-  - arm64
-
 compiler:
     # ... и с помощью GCC, и Clang
     - gcc
     - clang
 
+    install: skip
+
 script:
-    # скрипт сборки и тестирования проекта:
-    ./Multi.c
+    - cmake .
+    - cmake --build . -- -j2
