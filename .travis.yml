@@ -19,6 +19,6 @@ before_script: skip
 script:
     - mkdir -p build
     - cd build    
-    - cmake ../Multi.c
+    - cmake ../src
     - ctest
   

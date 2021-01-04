@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Multi.c",
+			"path" : "src/Multi.c",
 			"sourceGroupIndex" : 0
 		}
 	],
