@@ -17,9 +17,9 @@ install: skip
 before_script: skip
 
 script:
-    - mkdir -p build
+    - mkdir build
     - cd build 
-    - cmake ../Multi
+    - cmake ../Multi.c
     - make
     - ctest
   
