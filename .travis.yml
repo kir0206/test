@@ -14,22 +14,6 @@ compiler:
     - gcc
     - clang
 
-env:
-    # список переменных окружения, влияющих на матрицу сборки:
-    - TARGET_CPU=amd64 BUILD_CONFIGURATION=Debug
-    - TARGET_CPU=amd64 BUILD_CONFIGURATION=Release
-    - TARGET_CPU=x86 BUILD_CONFIGURATION=Debug
-    - TARGET_CPU=x86 BUILD_CONFIGURATION=Release
-
-matrix:
-    exclude:
-        # вручную исключим ненужные элементы из матрицы сборки:
-        - os:       windows
-          compiler: clang
-
-install:
-    
-
 script:
     # скрипт сборки и тестирования проекта:
     ./src/Multi.c
