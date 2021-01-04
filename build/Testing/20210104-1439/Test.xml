@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20210104-1439-Experimental"
+	Name="WIN-GOC27FDSUI6"
+	Generator="ctest-3.19.2"
+	CompilerName="C:/MinGW/bin/g++.exe"
+	CompilerVersion="6.3.0"
+	OSName="Windows"
+	Hostname="WIN-GOC27FDSUI6"
+	OSRelease=" Professional"
+	OSVersion=" (Build 17763)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="8"
+	ProcessorCacheSize="96"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="18473"
+	TotalPhysicalMemory="8123"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3194"
+	>
+	<Testing>
+		<StartDateTime>Jan 04 21:39 Iiaineae?neia noaiaa?oiia a?aiy</StartDateTime>
+		<StartTestTime>1609771183</StartTestTime>
+		<TestList>
+			<Test>./12Test</Test>
+			<Test>./8Test</Test>
+			<Test>./9Test</Test>
+			<Test>./13Test</Test>
+			<Test>./14Test</Test>
+			<Test>./7Test</Test>
+			<Test>./11Test</Test>
+			<Test>./16Test</Test>
+			<Test>./10Test</Test>
+			<Test>./15Test</Test>
+			<Test>./1Test</Test>
+			<Test>./3Test</Test>
+			<Test>./6Test</Test>
+			<Test>./2Test</Test>
+			<Test>./4Test</Test>
+			<Test>./5Test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>12Test</Name>
+			<Path>.</Path>
+			<FullName>./12Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "3" "-5.31" "0"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0424825</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: -0]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "3" "-5.31" "0"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: -0.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>8Test</Name>
+			<Path>.</Path>
+			<FullName>./8Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "2" "5.31" "0"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0406913</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 5.31]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "2" "5.31" "0"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 5.310000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>9Test</Name>
+			<Path>.</Path>
+			<FullName>./9Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "3" "5" "5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.042866</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 25]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "3" "5" "5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 25.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>13Test</Name>
+			<Path>.</Path>
+			<FullName>./13Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "4" "5" "5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0447011</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 1]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "4" "5" "5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 1.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>14Test</Name>
+			<Path>.</Path>
+			<FullName>./14Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "4" "-5" "-5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0463832</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 1]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "4" "-5" "-5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 1.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>7Test</Name>
+			<Path>.</Path>
+			<FullName>./7Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "2" "0" "5.25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0482764</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: -5.25]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "2" "0" "5.25"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: -5.250000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>11Test</Name>
+			<Path>.</Path>
+			<FullName>./11Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "3" "0" "5.25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0505761</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 0]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "3" "0" "5.25"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 0.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>16Test</Name>
+			<Path>.</Path>
+			<FullName>./16Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "4" "5.31" "0"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0530232</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[Error]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "4" "5.31" "0"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Error
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>10Test</Name>
+			<Path>.</Path>
+			<FullName>./10Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "3" "-5" "-5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0559557</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 25]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "3" "-5" "-5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 25.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>15Test</Name>
+			<Path>.</Path>
+			<FullName>./15Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "4" "0" "5.25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0592148</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 0]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "4" "0" "5.25"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 0.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>1Test</Name>
+			<Path>.</Path>
+			<FullName>./1Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "1" "5" "5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0616215</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 10]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "1" "5" "5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 10.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>3Test</Name>
+			<Path>.</Path>
+			<FullName>./3Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "1" "0" "5.25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0635278</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 5.25]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "1" "0" "5.25"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 5.250000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>6Test</Name>
+			<Path>.</Path>
+			<FullName>./6Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "2" "-5" "-5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0651778</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 0]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "2" "-5" "-5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 0.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>2Test</Name>
+			<Path>.</Path>
+			<FullName>./2Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "1" "-5" "-5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0674063</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: -10]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "1" "-5" "-5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: -10.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>4Test</Name>
+			<Path>.</Path>
+			<FullName>./4Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "1" "-5.31" "0"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0691246</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: -5.31]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "1" "-5.31" "0"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: -5.310000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>5Test</Name>
+			<Path>.</Path>
+			<FullName>./5Test</FullName>
+			<FullCommandLine>C:\rep\test\build\Multi.exe "2" "5" "5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0707873</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[The result is: 0]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\rep\test\build\Multi.exe "2" "5" "5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The result is: 0.000000
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jan 04 21:39 Iiaineae?neia noaiaa?oiia a?aiy</EndDateTime>
+		<EndTestTime>1609771184</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
