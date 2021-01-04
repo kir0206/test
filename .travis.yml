@@ -16,4 +16,4 @@ compiler:
 
 script:
     # скрипт сборки и тестирования проекта:
-    ./src/Multi.c
+    ./Multi.c
