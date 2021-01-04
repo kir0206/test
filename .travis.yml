@@ -20,5 +20,5 @@ script:
     - mkdir -p build
     - cd build 
     - ctest
-    - ccmake ../Multi
+    - cmake ../Multi
     - make
