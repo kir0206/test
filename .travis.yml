@@ -19,6 +19,6 @@ before_script: skip
 script:
     - mkdir -p build1
     - cd build1
-    - cmake build .
+    - cmake --build .
     - ctest
   
