@@ -17,7 +17,7 @@ install: skip
 before_script: skip
 
 script:
-    - mkdir -p build1
-    - cd build1
+    - mkdir -p build
+    - cd build
     - ctest
   
