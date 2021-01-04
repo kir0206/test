@@ -19,7 +19,7 @@ before_script: skip
 script:
     - mkdir build1
     - cd build1
-    - cmake ../Multi.c
+    - cmake ../Multi
     - make
     - ctest
   
