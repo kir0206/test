@@ -20,6 +20,6 @@ before_script:
     - cmake .. 
 
 script:
-    - make Multi.c
+    - make
     - ctest
   
