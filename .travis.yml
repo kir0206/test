@@ -20,6 +20,6 @@ before_script:
     - cmake ..
 
 script:
-    - cmake --build
+    - cmake --build .
     - ctest
   
