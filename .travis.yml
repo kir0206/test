@@ -19,5 +19,6 @@ before_script:
 
 script: 
     - ctest
-    - ./configure && make
+    
+build: make
   
