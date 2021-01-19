@@ -4,14 +4,7 @@ language: c       # на практике разницы между специф
 os:
     # будем прогонять CI и на Linux, и на Mac OS X...
     - windows
-addons:
-  apt:
-    sources:
-      - george-edison55-precise-backports
-    packages:
-      - cmake-data
-      - cmake
-      
+
 compiler:
     # ... и с помощью GCC, и Clang
     - gcc
@@ -23,10 +16,10 @@ install: skip
 
 before_script:  
     - mkdir -p build
-    - cd build 
+    - cd build
+    - cmake .. 
 
 script: 
-    - cmake ..
-    - cmake --build .
+    - make
     - ctest
   
