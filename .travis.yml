@@ -21,6 +21,6 @@ before_script:
     - cmake ..
 
 script:
-    - make
+    --build c:/rep/test/build --config Release --target all -- -j 18
     - ctest
   
