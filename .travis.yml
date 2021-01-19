@@ -17,9 +17,9 @@ install: skip
 before_script:  
     - mkdir -p build
     - cd build 
-    - cmake ..
 
 script: 
+    - cmake ..
     - make
     - ctest
   
