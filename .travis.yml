@@ -12,8 +12,9 @@ compiler:
 before_install: skip
 
 
-install: choco install make
-
+install:
+    - choco install make
+    - choco install cmake
 before_script:  
     - mkdir -p build
     - cd build
