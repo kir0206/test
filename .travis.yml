@@ -1,14 +1,12 @@
-language: c       # на практике разницы между специфичным для C++ окружением
-                    # и, скажем, python -- никакой. Но пусть будет cpp.
+language: c
 
 os:
-    # будем прогонять CI и на Linux, и на Mac OS X...
     - windows
 
 compiler:
-    # ... и с помощью GCC, и Clang
     - gcc
     - clang
+
 before_install: skip
 
 
@@ -21,4 +19,5 @@ before_script:
 
 script: 
     - ctest
+    -make
   
