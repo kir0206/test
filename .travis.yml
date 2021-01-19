@@ -3,6 +3,8 @@ language: c
 os:
     - windows
 
+import:
+
 compiler:
     - gcc
     - clang
@@ -10,16 +12,15 @@ compiler:
 before_install: skip
 
 
-install: skip
+install: make get-deps
 
 before_script:  
     - mkdir -p build
     - cd build
     - cmake .. 
-build: make
 
 script: 
     - ctest
-    
+    make
 
   
