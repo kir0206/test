@@ -12,7 +12,7 @@ compiler:
 before_install: skip
 
 
-install: skip
+install: choco install make
 
 before_script:  
     - mkdir -p build
