@@ -20,6 +20,5 @@ before_script:
     - cmake .. 
 
 script: 
-    - make
     - ctest
   
