@@ -16,9 +16,10 @@ before_script:
     - mkdir -p build
     - cd build
     - cmake .. 
+build: make
 
 script: 
     - ctest
     
-build: make
+
   
