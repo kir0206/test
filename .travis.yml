@@ -18,7 +18,7 @@ choco install cmake
 before_script:  
     - mkdir -p build
     - cd build
-    - cmake .. 
+    - cmake . 
 
 script:
     - make
