@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/rep/test/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -O3 -DNDEBUG -o CMakeFiles\\Multi.dir\\Multi.c.obj -c C:\\rep\\test\\Multi.c",
-  "file": "C:/rep/test/Multi.c"
+  "directory": "C:/rep/313213/test/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -o CMakeFiles\\Multi.dir\\Multi.c.obj -c C:\\rep\\313213\\test\\Multi.c",
+  "file": "C:/rep/313213/test/Multi.c"
 }
 ]

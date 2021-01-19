@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/rep/test/1111.c
-stdio.h
--
-stdlib.h
+C:/rep/313213/test/main.cpp
+iostream
 -
 

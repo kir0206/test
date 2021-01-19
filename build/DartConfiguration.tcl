@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/rep/test
-BuildDirectory: C:/rep/test/build
+SourceDirectory: C:/rep/313213/test
+BuildDirectory: C:/rep/313213/test/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/rep/test"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/rep/313213/test"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,7 +62,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/MinGW/bin/g++.exe
+Compiler: C:/MinGW/bin/mingw32-g++.exe
 CompilerVersion: 6.3.0
 
 # Dynamic analysis (MemCheck)
