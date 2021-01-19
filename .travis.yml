@@ -14,11 +14,11 @@ before_install: skip
 
 install: skip
 
-before_script: skip
-
+before_script: 
+    - mkdir build
+    - cd build  
+    - cmake ..
 script:
-    - mkdir -p build
-    - cd build    
-    - cmake ../
+    - make
     - ctest
   
