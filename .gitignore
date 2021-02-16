@@ -1,0 +1,8 @@
+build/CMakeCache.txt
+build/Multi.exe
+build/CMakeFiles/CMakeOutput.log
+build/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin
+build/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin
+build/CMakeFiles/3.19.2/CompilerIdC/a.exe
+build/CMakeFiles/3.19.2/CompilerIdCXX/a.exe
+build/CMakeFiles/Multi.dir/objects.a
