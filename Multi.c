@@ -72,4 +72,5 @@ else if (sign1 == 4)
          }
     return EXIT_SUCCESS;
     getchar();
+    getchar();
 }
