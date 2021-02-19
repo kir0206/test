@@ -11,16 +11,16 @@
 			"cmake" : "C:/Program Files/CMake/bin/cmake.exe",
 			"cpack" : "C:/Program Files/CMake/bin/cpack.exe",
 			"ctest" : "C:/Program Files/CMake/bin/ctest.exe",
-			"root" : "C:/Program Files/CMake/share/cmake-3.19"
+			"root" : "C:/Program Files/CMake/share/cmake-3.20"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 19,
-			"patch" : 2,
-			"string" : "3.19.2",
-			"suffix" : ""
+			"minor" : 20,
+			"patch" : 0,
+			"string" : "3.20.0-rc1",
+			"suffix" : "rc1"
 		}
 	},
 	"objects" : 
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-8e9cc7f3c4ba559fec76.json",
+			"jsonFile" : "cache-v2-9fc56743399bb298b04e.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -64,7 +64,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-8e9cc7f3c4ba559fec76.json",
+						"jsonFile" : "cache-v2-9fc56743399bb298b04e.json",
 						"kind" : "cache",
 						"version" : 
 						{
