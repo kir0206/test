@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Multi.dir/Multi.c.obj"
+  "CMakeFiles/Multi.dir/Multi.c.obj.d"
   "Multi.exe"
   "Multi.exe.manifest"
   "Multi.pdb"

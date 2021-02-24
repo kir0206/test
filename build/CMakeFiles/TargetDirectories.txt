@@ -1,6 +1,4 @@
-C:/rep/test/build/CMakeFiles/Multi.dir
-C:/rep/test/build/CMakeFiles/package.dir
-C:/rep/test/build/CMakeFiles/package_source.dir
-C:/rep/test/build/CMakeFiles/rebuild_cache.dir
-C:/rep/test/build/CMakeFiles/test.dir
-C:/rep/test/build/CMakeFiles/edit_cache.dir
+D:/Users/Kirill.HOME-PC/Downloads/test/build/CMakeFiles/Multi.dir
+D:/Users/Kirill.HOME-PC/Downloads/test/build/CMakeFiles/rebuild_cache.dir
+D:/Users/Kirill.HOME-PC/Downloads/test/build/CMakeFiles/test.dir
+D:/Users/Kirill.HOME-PC/Downloads/test/build/CMakeFiles/edit_cache.dir
